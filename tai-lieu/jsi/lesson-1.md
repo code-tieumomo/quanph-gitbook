@@ -105,7 +105,14 @@ Thường xảy ra 1 trong 2 trường hợp dưới đây:
 ### HTML
 
 ```html
-<tag-name attribute="value">content</tag-name> <img src="..." />
+<tag-name attribute="value">content</tag-name>
+<!-- Một số thẻ không có thẻ đóng -->
+<img src="..." />
+
+<!-- Thẻ HTML có thể lồng vào nhau -->
+<div>
+    <span>content</span>
+</div>
 ```
 
 * Tài liệu:
