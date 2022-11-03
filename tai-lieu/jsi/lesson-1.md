@@ -1,5 +1,5 @@
 ---
-description: Tổng hợp kiến thức khóa trước và các bước cần chuẩn bị
+description: Tổng hợp kiến thức khóa trước và các bước cần chuẩn bị trước khi bắt đầu
 cover: >-
   https://images.unsplash.com/photo-1550063873-ab792950096b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxqYXZhc2NyaXB0fGVufDB8fHx8MTY2NzQ4ODEzMw&ixlib=rb-4.0.3&q=80
 coverY: 1696.0352422907488
