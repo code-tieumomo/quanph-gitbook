@@ -24,26 +24,29 @@ coverY: 1696.0352422907488
 
 Thường xảy ra 1 trong 2 trường hợp dưới đây:
 
+* Tạo repo mới trên Github trước, sau đó mới clone về local để làm việc
+* Đã có sẵn 1 project ở local và muốn thêm git vào project này
+
 #### Tạo repo mới
 
 * Tạo repo trên Github
-*   Clone repo về máy
+*   Clone repo về local
 
-    ```bash
-    git clone https://github.com/code-tieumomo/NPS---JSI08.git
-    ```
+    <pre class="language-bash"><code class="lang-bash"><strong># Clone repo về máy bằng đường dẫn HTTPS
+    </strong><strong>git clone &#x3C;https_link>
+    </strong># VD: git clone https://github.com/code-tieumomo/quanph-gitbook.git</code></pre>
 *   Tạo branch mới
 
-    ```bash
-    # Tạo nhánh mới
-    git checkout -b <branch_name>
+    <pre class="language-bash"><code class="lang-bash"># Tạo nhánh mới
+    git checkout -b &#x3C;branch_name>
     # Chuyển nhánh
-    git checkout <branch_name>
-    ```
+    <strong>git checkout &#x3C;branch_name></strong></code></pre>
 
 #### Thêm git vào project có sẵn
 
-*   Khởi tạo git
+> Mở terminal tại gốc thư mục
+
+*   Nếu project chưa khởi tạo Git thì cần init trước
 
     ```bash
     git init
@@ -51,7 +54,9 @@ Thường xảy ra 1 trong 2 trường hợp dưới đây:
 *   Thêm remote
 
     ```bash
-    git remote add origin https://github.com/code-tieumomo/NPS---JSI08.git
+    # Thêm remote cho repo bằng link HTTPS (nên đặt tên là origin)
+    git remote add <remote_name> <https_link>
+    # VD: git remote add origin https://github.com/code-tieumomo/quanph-gitbook.git
     ```
 *   Tạo branch mới
 
@@ -64,12 +69,12 @@ Thường xảy ra 1 trong 2 trường hợp dưới đây:
 
 ### Quy trình làm việc
 
-*   (Nếu làm nhóm) Pull code mới về
+*   (Nếu làm nhóm) Pull code mới từ remote về local để update code mới nhất trước khi code, tránh tình trạng code update rất nhiều thứ nhưng những phần đó lại chưa phải là phần mới nhất từ remote.
 
     ```bash
     git pull origin <branch_name>
+    # Rút gọn
     git pull
-    # Pull code mới về nhưng bị cảnh báo: local changed chưa được commit
     ```
 *   Kiểm tra trạng thái
 
@@ -79,18 +84,19 @@ Thường xảy ra 1 trong 2 trường hợp dưới đây:
 *   Thêm file mới
 
     ```bash
-    git add <file_name> <file_name> # ...
-    git add . # Thêm tất cả những file mới + thay đổi
+    git add <file_name> [...<file_name>]
+    git add . # Thêm tất cả những file mới + file được thay đổi
     ```
 *   Commit
 
     ```bash
-    git commit -m "message" # add index, update homepage, ...
+    git commit -m "<commit_mesage>" # add index, update homepage, ...
     ```
 *   Push code lên Github
 
     ```bash
     git push origin <branch_name>
+    # Rút gọn
     git push
     ```
 
