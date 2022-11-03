@@ -16,7 +16,7 @@ coverY: 1696.0352422907488
 * Bật Auto Save (Menu File > Auto Save), Bật Format on Save (Menu File > Preferences > Settings > Format on Save)
 * Cài browser (Chrome, Firefox, ...)
 
-## GIT
+## Git
 
 > Ở đây chỉ tóm tắt lại kiến thức về Git, chi tiết xem lại Lesson 1 của JSA
 
