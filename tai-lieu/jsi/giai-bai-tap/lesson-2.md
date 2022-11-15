@@ -159,3 +159,61 @@ const playersModified = players.reduce(function (carry, item) {
 }, {});
 console.log(playersModified); // ...
 ```
+
+## Bài tập luyện tập
+
+### Bài 1
+
+Cho array sau `arr1 = [1,2,3,5]`. Hãy duplicate array cho bên trên bằng ít nhất 2 cách; trong đó có 1 cách dùng Spread Operator.
+
+### Bài 2
+
+Cho 2 array như sau: `arrA = [“Hello”, “ Xin chào”]; arrB = [“Bonjour”, “Olá”]`. Hãy tạo ra một array mới có tên là waysToSayHello, trong array này sẽ chứa toàn bộ các phần tử của arrA và arrB. Làm bằng 2 cách; trong đó có 1 cách sử dụng Spread Operator.
+
+### Bài 3
+
+Cho `arrX = [0,1,2,3,4,5,6,7,8]`.
+
+* Hãy tạo ra arrSquare, chứa các giá trị của phần tử trong arrX đã được bình phương.
+* Hãy tạo ra arrOdds chứa các phần tử là số lẻ nằm trong arrX.
+
+### Bài 4
+
+Viết một hàm `filterRange(arr, a, b)`, với arr là 1 mảng có > 4 phần tử; `0<= a,b < arr.length`. Tìm kiếm giá trị các phần tử nằm giữa `arr[a]` và `arr[b]`. Chú ý, mảng cũ phải không bị thay đổi. VD: `arr= [1,5,4,6], a= 0, b = 2;` => `filteredArr = [1,5]`
+
+### Bài 5
+
+Tương tự **bài 4**, tuy nhiên sau khi chạy hàm `filterRange(arr, a,b)` sẽ hiển thị ra giá trị phần tử `> a` và `< b`. VD: `filteredArr = [1]`. Phải tạo ra mảng mới, mảng cũ không thay đổi. Không tạo ra mảng mới, mảng cũ bị thay đổi.
+
+### Bài 6
+
+Cho một mảng như sau
+
+```javascript
+let student = [{
+	name: "Duong",
+	age: 11,
+	hobbies: ["video game", "sleep", "learn"]
+}, {
+	name: "Dong",
+	age: 12,
+	hobbies: ["video game", "sick", "study"]
+}, {
+	name: "Minh",
+	age: 13,
+	hobbies: ["video game", "sick", "learn"]
+}, {
+	name: "Thanh",
+	age: 9,
+	hobbies: ["play game", "sleep", "learn"]
+}, {
+	name: "Hung",
+	age: 11,
+	hobbies: ["play game", "sick", "study"]
+}]
+```
+
+* In ra tên những người có tuổi bằng 11&#x20;
+* In ra toàn bộ sở thích và name của những ai thích `video game`
+* Lọc ra những ai có sở thích là `study` và in ra nó&#x20;
+* Thay đổi toàn bộ những ai có tuổi 11 thành 15 **(sử dụng `map`)**
