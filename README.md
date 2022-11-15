@@ -1,2 +1,2 @@
-# 📦 Mysql
+# 💻 Server
 

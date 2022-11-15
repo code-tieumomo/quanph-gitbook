@@ -10,7 +10,7 @@ SELECT user, host FROM mysql.user;
 
 <pre class="language-sql"><code class="lang-sql"><strong>CREATE USER 'username'@'host' IDENTIFIED WITH mysql_native_password BY 'password';</strong></code></pre>
 
-> Sau khi tạo user mới thường sẽ cần cấp quyền cho user này
+> Sau khi tạo user mới thường sẽ cần [cấp quyền](quan-ly-users.md#cap-quyen-cho-user) cho user này
 
 ## Xóa user
 
