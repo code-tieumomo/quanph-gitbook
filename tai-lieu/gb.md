@@ -10,4 +10,5 @@
 
 #### Lesson 1
 
-{% embed url="https://drive.google.com/drive/folders/1TU5gHq79rXxi_ULMlKtpoRbubPIFgXov?usp=sharing" %}
+[https://drive.google.com/drive/folders/1jBfk7ux4fxjiEC-d4RYLjMWNRB\_uilDQ?usp=sharing](https://drive.google.com/drive/folders/1jBfk7ux4fxjiEC-d4RYLjMWNRB\_uilDQ?usp=sharing)
+
